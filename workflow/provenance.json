@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/abuzzimit/AutomaticGratingSetup",
+  "commit": "fd57583980fc8134d7ce966fe45b1883bd50f261",
+  "source_sha256": {
+    "Model/model_v1.py": "6380ce978315708943be589d953336a36eef1f2e4c4de457b16065a380dc2069",
+    "Model/run_saved_result_with_3d.py": "127121bf8fcba581753eab3a257ee9d0bc6730442c174af418d0cf4bbb102a87",
+    "Model/run_saved_result_with_3d_v2.py": "fa27680adb825a0c09ec3723317085c323ed2401e70157d068f8195d522614a0",
+    "Model/run_saved_result_with_3d_v3.py": "7dc249d83acb7cd82d0b4532925c52e525e832e3c1e7bd2297bc1b86869e00cc",
+    "Model/run_saved_result_with_3d_v4.py": "d516887e311df8f44be795ba1100fcfd9a404952bcfe8bcc838a251d572a3c02",
+    "usage_test_uniform_cube_16.py": "9b9c0898671220959a1be6c760eb8f2e4ea7408aff16620862149fd4e72f5ae7",
+    "calibration_analysis_v5.py": "e79c782756de4cb072f261aea8a16dc69448ac653955fe47aa7096b18e089330"
+  },
+  "changes": [
+    "Offline entry points; no hardware initialization.",
+    "Removed historical change logs, debug printouts and machine-specific paths.",
+    "Explicit initial-fit inputs replace automatic prior-fit discovery.",
+    "Integer samples-per-cycle validation corrected.",
+    "Model and waveform equations preserved.",
+    "Removed lab viewer and diagnostic plotting helpers; publication plots remain in the figure source directories.",
+    "Added numerical delay-calibration entry point without acquisition or exploratory plotting.",
+    "Preserved voltage/detector permutations through global fallback and both fit exports.",
+    "Report labels follow physical electrode and manuscript output mappings.",
+    "Removed dead diagnostics, duplicate analytic implementation and unused imports."
+  ]
+}

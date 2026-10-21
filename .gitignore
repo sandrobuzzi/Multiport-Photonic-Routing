@@ -1,0 +1,24 @@
+# Downloaded measurement data and generated artifacts
+/data/
+/outputs/
+/viewer/data/
+*.npz
+*.npy
+*.s2p
+*.h5
+*.hdf5
+*.pdf
+*.png
+*.jpg
+*.svg
+*.csv
+*.zip
+*.gz
+# Local environment and credentials
+.venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+formalization/.lake/

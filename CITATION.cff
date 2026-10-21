@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and Zenodo data record when using this software."
+title: "Code for Multiport photonic routing with a single cavity-based electro-optic phase shifter per port"
+type: software
+version: 0.1.0
+license: CC-BY-4.0
+repository-code: "https://github.com/sandrobuzzi/Multiport-Photonic-Routing"
+authors:
+  - family-names: Buzzi
+    given-names: Alessandro
+  - family-names: Frederiksen
+    given-names: Bjarke A.
+  - family-names: Vitullo
+    given-names: Dashiell L. P.
+  - family-names: Heuck
+    given-names: Mikkel
+  - family-names: Englund
+    given-names: Dirk R.
+references:
+  - type: dataset
+    title: "Source data for Multiport photonic routing"
+    doi: 10.5281/zenodo.23194529
+    authors:
+      - family-names: Buzzi
+        given-names: Alessandro

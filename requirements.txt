@@ -1,0 +1,8 @@
+numpy==2.3.2
+matplotlib==3.10.6
+scipy==1.16.1
+pandas==2.3.2
+jupyter-core==5.8.1
+jupyter-client==7.4.9
+nbconvert==7.16.6
+ipykernel==6.29.5

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive voltage-cube data viewer for Multiport photonic routing with a single cavity-based electro-optic phase shifter per port.">
+  <title>Multiport photonic routing — voltage-cube viewer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Publication data explorer</div>
+    <h1>Multiport photonic routing</h1>
+    <p class="lede">Explore the measured and fitted three-voltage response behind Fig. 4.</p>
+  </header>
+
+  <main>
+    <aside class="controls" aria-label="Plot controls">
+      <section>
+        <h2>View</h2>
+        <label for="mode">Dataset and coloring</label>
+        <select id="mode">
+          <option value="experiment-output">Measured outputs · Fig. 4a</option>
+          <option value="model-output">Fitted model · Fig. 4b</option>
+          <option value="experiment-extinction">Measured extinction · Fig. 4c</option>
+          <option value="model-extinction">Model extinction</option>
+        </select>
+
+        <label for="point-count">Displayed points</label>
+        <select id="point-count">
+          <option value="5000">5,000</option>
+          <option value="10000" selected>10,000</option>
+          <option value="25000">25,000</option>
+          <option value="all">All available</option>
+        </select>
+
+        <div class="range-row">
+          <label for="point-size">Point size <output id="point-size-value">3</output></label>
+          <input id="point-size" type="range" min="1" max="10" value="3" step="1">
+        </div>
+        <div class="range-row">
+          <label for="opacity">Opacity <output id="opacity-value">0.85</output></label>
+          <input id="opacity" type="range" min="0.1" max="1" value="0.85" step="0.05">
+        </div>
+        <div class="range-row">
+          <label for="gamma">Color brightness <output id="gamma-value">0.55</output></label>
+          <input id="gamma" type="range" min="0.25" max="1.5" value="0.55" step="0.05">
+        </div>
+      </section>
+
+      <section>
+        <h2>Data source</h2>
+        <label for="data-url">Included data file or another compatible URL</label>
+        <input id="data-url" type="url" value="data/cube_data.json.gz" spellcheck="false">
+        <div class="button-row">
+          <button id="load-data" type="button">Load data</button>
+          <button id="download-csv" type="button" class="secondary">Download displayed CSV</button>
+        </div>
+        <p class="hint">The included exact data load by default. A URL supplied with <code>?data=…</code> can override it.</p>
+      </section>
+
+      <section class="legend">
+        <h2>Channel map</h2>
+        <p><span class="dot red"></span>P1 / CH2</p>
+        <p><span class="dot green"></span>P2 / CH3</p>
+        <p><span class="dot blue"></span>P3 / CH4</p>
+      </section>
+    </aside>
+
+    <section class="figure-panel">
+      <div class="plot-heading">
+        <div>
+          <h2 id="plot-title">Measured outputs</h2>
+          <p id="plot-subtitle">Loading exact source data…</p>
+        </div>
+        <span id="status" role="status">Loading</span>
+      </div>
+      <div id="plot" aria-label="Interactive three-dimensional voltage-cube plot"></div>
+      <div class="plot-note">
+        Drag to rotate · scroll to zoom · use the camera icon to export a PNG.
+        Brightness changes only the display, never the underlying values.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data and code for <em>Multiport photonic routing with a single cavity-based electro-optic phase shifter per port</em>.</p>
+    <p><a href="../README.md">Release documentation</a></p>
+  </footer>
+</body>
+</html>

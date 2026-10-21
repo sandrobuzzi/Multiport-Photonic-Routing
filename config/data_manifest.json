@@ -1,0 +1,187 @@
+{
+  "doi": "10.5281/zenodo.23194529",
+  "record_id": "23194529",
+  "files": [
+    {
+      "path": "fig1/fig1g/cavity_reflection_K1_state1.csv",
+      "archive_path": "data/fig1/fig1g/cavity_reflection_K1_state1.csv",
+      "used_by": [
+        "Fig1 g"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig1/fig1g/cavity_reflection_K1_state1.json",
+      "archive_path": "data/fig1/fig1g/cavity_reflection_K1_state1.json",
+      "used_by": [
+        "Fig1 g"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig1/fig1h/reachable_region_plotted_source_data.csv",
+      "archive_path": "data/fig1/fig1h/reachable_region_plotted_source_data.csv",
+      "used_by": [
+        "Fig1 h"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3a/fig3a_plotted_source_data.csv",
+      "archive_path": "data/fig3/fig3a/fig3a_plotted_source_data.csv",
+      "used_by": [
+        "Fig3 a"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3a/fig3a_plotted_source_data.json",
+      "archive_path": "data/fig3/fig3a/fig3a_plotted_source_data.json",
+      "used_by": [
+        "Fig3 a"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3b/fig3b_effective_tuning_source_data.csv",
+      "archive_path": "data/fig3/fig3b/fig3b_effective_tuning_source_data.csv",
+      "used_by": [
+        "Fig3 b"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3b/original_source/A46_PowerVoltageSweep_031125_16-14.npz",
+      "archive_path": "data/fig3/fig3b/original_source/A46_PowerVoltageSweep_031125_16-14.npz",
+      "used_by": [
+        "Fig3 b"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3c/a46_bandwidth_13dbm_2605111807.s2p",
+      "archive_path": "data/fig3/fig3c/a46_bandwidth_13dbm_2605111807.s2p",
+      "used_by": [
+        "Fig3 c"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig3/fig3c/through_meas_2605111715.s2p",
+      "archive_path": "data/fig3/fig3c/through_meas_2605111715.s2p",
+      "used_by": [
+        "Fig3 c"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig4/voltage_cube/inputs/uniform_cube_16_strobe_20260505_230858.npz",
+      "archive_path": "data/fig4/voltage_cube/inputs/uniform_cube_16_strobe_20260505_230858.npz",
+      "used_by": [
+        "Fig4 a-c",
+        "Fig4 d",
+        "Fig4 e",
+        "Fig4 workflow"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig4/voltage_cube/inputs/reconstructed_exp_cube.npz",
+      "archive_path": "data/fig4/voltage_cube/inputs/reconstructed_exp_cube.npz",
+      "used_by": [
+        "Fig4 a-c",
+        "Fig4 workflow"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig4/voltage_cube/inputs/full_cube_fit_reciprocal_MT.npz",
+      "archive_path": "data/fig4/voltage_cube/inputs/full_cube_fit_reciprocal_MT.npz",
+      "used_by": [
+        "Fig4 d",
+        "Fig4 workflow"
+      ],
+      "coverage": "main-text data archive",
+      "present_in_verified_zenodo_archive": true
+    },
+    {
+      "path": "fig4/single_channel_extinction/raw/uniform_cube_08_targeted_20260416_095737.npz",
+      "archive_path": "data/fig4/single_channel_extinction/raw/uniform_cube_08_targeted_20260416_095737.npz",
+      "used_by": [
+        "Supplementary single-channel extinction"
+      ],
+      "coverage": "supplementary input; verify Zenodo record contents",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "insertion_loss/IL_A46_device_20260531_075316.npz",
+      "archive_path": "data/insertion_loss/IL_A46_device_20260531_075316.npz",
+      "used_by": [
+        "Supplementary insertion loss"
+      ],
+      "coverage": "supplementary input; verify Zenodo record contents",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "insertion_loss/IL_grating_ref_20260531_075632.npz",
+      "archive_path": "data/insertion_loss/IL_grating_ref_20260531_075632.npz",
+      "used_by": [
+        "Supplementary insertion loss"
+      ],
+      "coverage": "supplementary input; verify Zenodo record contents",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "simulations/phase_tolerance_reference.json",
+      "archive_path": "data/simulations/phase_tolerance_reference.json",
+      "used_by": [
+        "Supplementary arm-phase sensitivity: stored tolerance reference"
+      ],
+      "coverage": "Supplementary numerical reference; not recomputed by the phase-sensitivity script",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "fig3/fig3a/plot_reference_lorentzian_plotted.npz",
+      "archive_path": "data/fig3/fig3a/plot_reference_lorentzian_plotted.npz",
+      "used_by": [
+        "Supplementary reference-cavity plots"
+      ],
+      "coverage": "Final processed plotted coordinates",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "fig3/fig3a/plot_full_reference_spectrum_plotted.npz",
+      "archive_path": "data/fig3/fig3a/plot_full_reference_spectrum_plotted.npz",
+      "used_by": [
+        "Supplementary reference-cavity plots"
+      ],
+      "coverage": "Final processed plotted coordinates",
+      "present_in_verified_zenodo_archive": false
+    }
+  ],
+  "note": "Data belong in the Zenodo record and the ignored local data directory. Public record availability and supplementary input coverage must be checked when the record is published.",
+  "optional_inputs": [
+    {
+      "purpose": "Re-estimate cable delays",
+      "path": "INSERT PATH HERE FOR A MULTI-DRIVE CALIBRATION CAPTURE.npz",
+      "note": "The paper uses stored delay metadata. A calibration capture is needed only to rerun delay estimation."
+    }
+  ],
+  "verified_zenodo_archive": {
+    "filename": "Multiport_Photonic_Routing_Data_v1.0.0.zip",
+    "md5": "eb1ab65f55cde61bedbbd477f5dcbc4f",
+    "verified_date": "2026-10-21",
+    "status": "Draft; accessible with authorized review link"
+  }
+}

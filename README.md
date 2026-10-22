@@ -32,21 +32,10 @@ python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 ```
 
-Download the data before running figure or fitted-model analyses. For a public
-record, use `python scripts/download_data.py`.
-
-The reserved Zenodo record is currently a draft. Until publication, an authorized
-reviewer can download its ZIP from the review page and import it locally:
-
-```sh
-python scripts/download_data.py --archive "INSERT PATH HERE FOR THE ZENODO DATA ZIP"
-```
-
-Alternatively set `ZENODO_REVIEW_URL` locally to the authorized review link and
-run the downloader. Never commit or share that environment value. Once the record
-is public, the default downloader uses the public record API and verifies its
-checksum. The ZIP importer extracts data files only, so historical code in a
-Zenodo archive does not replace this repository's code.
+Download the data before running figure or fitted-model analyses with
+`python scripts/download_data.py`. The downloader uses the public Zenodo record
+API and verifies the archive checksum. The ZIP importer extracts data files only,
+so historical code in the Zenodo archive does not replace this repository's code.
 
 After importing the data, run `python scripts/prepare_model_parameters.py`.
 Data go into ignored `data/`; generated results go into ignored `outputs/`.
@@ -149,5 +138,5 @@ in GHz. The accompanying JSON distinguishes the formal slope SE
 (0.0439 GHz/V) from the reported practical uncertainty (0.06 GHz/V).
 Re-extract directly from the archived raw sweep with
 `python figures/main/extract_resonance_tuning.py --source RAW.npz --output DATA.csv`.
-The corrected CSV/JSON are included in the checksum-verified Zenodo draft archive
+The corrected CSV/JSON are included in the checksum-verified Zenodo archive
 (MD5 `05d7b5957a6fb0719ca42576897a7c30`). Earlier local ZIPs may contain the superseded trajectory.

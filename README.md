@@ -2,8 +2,7 @@
 
 Analysis software and formal proofs accompanying the manuscript.
 
-The repository is private during manuscript preparation. It contains software,
-formal proofs and documentation. Measurement data and saved numerical results
+The repository contains software, formal proofs and documentation. Measurement data and saved numerical results
 are obtained from [Zenodo, DOI 10.5281/zenodo.23194529](https://doi.org/10.5281/zenodo.23194529).
 Instrument control is outside the scope of this offline analysis repository.
 

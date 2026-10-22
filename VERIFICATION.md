@@ -31,6 +31,18 @@
 - Supplementary analyses requiring the missing measurement files run against
   a separately staged data addition. The code repository contains no datasets.
 
+## Fresh replacement-archive check (21 October 2026)
+
+- All 14 figure/model-analysis entry points ran successfully against a fresh
+  extraction of the prepared replacement ZIP.
+- Both the code notebook and the archive-root notebook executed every code cell.
+- All four device-statistics scripts ran against the included tables.
+- The final processed Fig. 3a columns plot directly; the Fig. 3b notebook uses
+  the independently extracted points and linear fit.
+- The standalone Git history contains no measurement datasets, private paths,
+  credentials, tokenized review links or the superseded Fig. 3a scaling code.
+- Remote Zenodo attachment verification remains pending.
+
 ## Reproduction limits
 
 - Use the accompanying data archive for the supplementary inputs listed in

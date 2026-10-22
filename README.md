@@ -149,5 +149,5 @@ in GHz. The accompanying JSON distinguishes the formal slope SE
 (0.0439 GHz/V) from the reported practical uncertainty (0.06 GHz/V).
 Re-extract directly from the archived raw sweep with
 `python figures/main/extract_resonance_tuning.py --source RAW.npz --output DATA.csv`.
-The corrected CSV/JSON are prepared for the replacement data archive; an older
-Zenodo download may still contain the superseded trajectory.
+The corrected CSV/JSON are included in the checksum-verified Zenodo draft archive
+(MD5 `05d7b5957a6fb0719ca42576897a7c30`). Earlier local ZIPs may contain the superseded trajectory.

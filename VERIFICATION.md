@@ -2,10 +2,10 @@
 
 ## Numerical and source checks
 
-- The originally downloaded Zenodo draft archive matched its advertised MD5
-  `eb1ab65f55cde61bedbbd477f5dcbc4f`. A replacement archive with corrected
-  Fig. 3b data and supporting Supplementary inputs has been prepared and
-  checked locally; upload verification remains pending.
+- The replacement Zenodo draft archive `Multiport_Photonic_Routing_Data_v1.0.0.zip`
+  contains the corrected Fig. 3b data and supporting Supplementary inputs.
+  The saved owner page confirms a completed 30.00 MB attachment with matching
+  MD5 `05d7b5957a6fb0719ca42576897a7c30`. The record remains unpublished.
 - Main-figure scripts, the bandwidth fit, source-data notebook, cavity-state
   reconstruction, reference Lorentzian, joint-drive geometry and four-port
   regions run against the downloaded data.
@@ -41,7 +41,7 @@
   the independently extracted points and linear fit.
 - The standalone Git history contains no measurement datasets, private paths,
   credentials, tokenized review links or the superseded Fig. 3a scaling code.
-- Remote Zenodo attachment verification remains pending.
+- The uploaded Zenodo draft attachment is verified against the local archive checksum.
 
 ## Reproduction limits
 

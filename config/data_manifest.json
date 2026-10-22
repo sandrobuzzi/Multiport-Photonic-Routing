@@ -8,8 +8,8 @@
       "used_by": [
         "Fig1 g"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -18,8 +18,8 @@
       "used_by": [
         "Fig1 g"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -28,8 +28,8 @@
       "used_by": [
         "Fig1 h"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -38,8 +38,8 @@
       "used_by": [
         "Fig3 a"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -48,8 +48,8 @@
       "used_by": [
         "Fig3 a"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -58,8 +58,8 @@
       "used_by": [
         "Fig3 b"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "expected_tuning_GHz_V": 1.917500839095,
       "present_in_prepared_archive": true
     },
@@ -69,8 +69,8 @@
       "used_by": [
         "Fig3 b"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -79,8 +79,8 @@
       "used_by": [
         "Fig3 c"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -89,8 +89,8 @@
       "used_by": [
         "Fig3 c"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -102,8 +102,8 @@
         "Fig4 e",
         "Fig4 workflow"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -113,8 +113,8 @@
         "Fig4 a-c",
         "Fig4 workflow"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -124,8 +124,8 @@
         "Fig4 d",
         "Fig4 workflow"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -134,8 +134,8 @@
       "used_by": [
         "Supplementary single-channel extinction"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -144,8 +144,8 @@
       "used_by": [
         "Supplementary insertion loss"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -154,8 +154,8 @@
       "used_by": [
         "Supplementary insertion loss"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -164,8 +164,8 @@
       "used_by": [
         "Supplementary arm-phase sensitivity: stored tolerance reference"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -174,8 +174,8 @@
       "used_by": [
         "Supplementary reference-cavity plots"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -184,8 +184,8 @@
       "used_by": [
         "Supplementary reference-cavity plots"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     },
     {
@@ -194,12 +194,12 @@
       "used_by": [
         "Fig3 b"
       ],
-      "coverage": "Included in prepared replacement archive; remote upload verification pending",
-      "present_in_verified_zenodo_archive": false,
+      "coverage": "Included in checksum-verified Zenodo draft archive",
+      "present_in_verified_zenodo_archive": true,
       "present_in_prepared_archive": true
     }
   ],
-  "note": "Data belong in the Zenodo record and the ignored local data directory. Public record availability and supplementary input coverage must be checked when the record is published.",
+  "note": "All required inputs are included in the checksum-verified Zenodo draft archive. Public access begins when the record is published.",
   "optional_inputs": [
     {
       "purpose": "Re-estimate cable delays",
@@ -209,7 +209,11 @@
   ],
   "verified_zenodo_archive": {
     "filename": "Multiport_Photonic_Routing_Data_v1.0.0.zip",
-    "status": "Replacement upload not yet verified"
+    "md5": "05d7b5957a6fb0719ca42576897a7c30",
+    "sha256": "7f7c7363648d267d2f8042fa9060c0da114ae54111761032e7b49bdebb133971",
+    "bytes": 29999711,
+    "verified_at_utc": "2026-10-22T03:58:47.386127+00:00",
+    "status": "Attachment verified in saved Zenodo draft; record remains unpublished"
   },
   "prepared_archive": {
     "filename": "Multiport_Photonic_Routing_Data_v1.0.0.zip",

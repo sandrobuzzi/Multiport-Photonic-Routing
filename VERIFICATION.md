@@ -2,8 +2,10 @@
 
 ## Numerical and source checks
 
-- The Zenodo draft archive `Multiport_Photonic_Routing_Data_v1.0.0.zip`
-  matches its advertised MD5 `eb1ab65f55cde61bedbbd477f5dcbc4f`.
+- The originally downloaded Zenodo draft archive matched its advertised MD5
+  `eb1ab65f55cde61bedbbd477f5dcbc4f`. A replacement archive with corrected
+  Fig. 3b data and supporting Supplementary inputs has been prepared and
+  checked locally; upload verification remains pending.
 - Main-figure scripts, the bandwidth fit, source-data notebook, cavity-state
   reconstruction, reference Lorentzian, joint-drive geometry and four-port
   regions run against the downloaded data.

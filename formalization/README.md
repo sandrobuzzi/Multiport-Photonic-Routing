@@ -13,7 +13,7 @@ four-port-family, and planar balanced-MMI claims added in Supplementary
 Notes 2 and 7.
 
 `SupplementaryGeometry.lean` formalizes the remaining unnumbered algebraic
-proofs: the power-of-two routing-group obstruction, the exact three-port
+proofs: the group-theoretic step of the power-of-two routing obstruction, the exact three-port
 Jacobian and critical curve, and the four-port section geometry and edge
 phase-matching condition.
 

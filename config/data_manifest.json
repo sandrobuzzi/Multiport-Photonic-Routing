@@ -53,8 +53,9 @@
       "used_by": [
         "Fig3 b"
       ],
-      "coverage": "main-text data archive",
-      "present_in_verified_zenodo_archive": true
+      "coverage": "Corrected forward K3 extraction; local source updated, pending replacement Zenodo archive",
+      "present_in_verified_zenodo_archive": false,
+      "expected_tuning_GHz_V": 1.917500839095
     },
     {
       "path": "fig3/fig3b/original_source/A46_PowerVoltageSweep_031125_16-14.npz",
@@ -167,6 +168,15 @@
         "Supplementary reference-cavity plots"
       ],
       "coverage": "Final processed plotted coordinates",
+      "present_in_verified_zenodo_archive": false
+    },
+    {
+      "path": "fig3/fig3b/fig3b_effective_tuning_source_data.json",
+      "archive_path": "data/fig3/fig3b/fig3b_effective_tuning_source_data.json",
+      "used_by": [
+        "Fig3 b"
+      ],
+      "coverage": "Corrected extraction metadata; pending replacement Zenodo archive",
       "present_in_verified_zenodo_archive": false
     }
   ],

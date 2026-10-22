@@ -24,13 +24,11 @@ def main() -> None:
 
     voltage = data["voltage_v"]
     measured = data["measured_frequency_detuning_ghz"]
-    empirical = data["empirical_fit_frequency_detuning_ghz"]
     linear = data["linear_fit_frequency_detuning_ghz"]
 
     order = np.argsort(voltage)
     fig, axis = plt.subplots(figsize=(5.0, 4.0))
     axis.scatter(voltage, measured, s=28, color="black", label="Measured")
-    axis.plot(voltage[order], empirical[order], color="tab:blue", label="Empirical fit")
     axis.plot(
         voltage[order],
         linear[order],

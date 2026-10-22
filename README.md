@@ -141,3 +141,14 @@ data record. Machine-readable citation metadata are in [CITATION.cff](CITATION.c
 For development checks, install `requirements-dev.txt` and run
 `python -m ruff check . --select F`. Viewer numerical checks use
 `node --test tests/test_viewer.cjs` (Node.js 22 in CI).
+
+## Corrected Fig. 3b tuning data
+
+The current Fig. 3b uses all 15 independently fitted forward A46/K3
+resonances at -14 dBm, giving 1.92 GHz/V. Its CSV detunings are already
+in GHz. The accompanying JSON distinguishes the formal slope SE
+(0.0439 GHz/V) from the reported practical uncertainty (0.06 GHz/V).
+Re-extract directly from the archived raw sweep with
+`python figures/main/extract_resonance_tuning.py --source RAW.npz --output DATA.csv`.
+The corrected CSV/JSON are prepared for the replacement data archive; an older
+Zenodo download may still contain the superseded trajectory.
